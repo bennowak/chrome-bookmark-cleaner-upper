@@ -1,0 +1,53 @@
+[{
+    "a": "[url]",
+    "href": "[href]"
+  },
+  {
+    "a": "[url]",
+    "href": "[href]"
+  },
+  {
+    "folder": "[name]",
+    "links": [{
+        "a": "[url]",
+        "href": "[href]"
+      },
+      {
+        "a": "[url]",
+        "href": "[href]"
+      },
+      {
+        "folder": "{{name}}",
+        "links": [{
+            "a": "[url]",
+            "href": "[href]"
+          },
+          {
+            "a": "[url]",
+            "href": "[href]"
+          }
+        ]
+      },
+      {
+        "a": "[url]",
+        "href": "[href]"
+      },
+      {
+        "a": "[url]",
+        "href": "[href]"
+      }
+    ]
+  },
+  {
+    "folder": "[name]",
+    "links": [{
+        "a": "[url]",
+        "href": "[href]"
+      },
+      {
+        "a": "[url]",
+        "href": "[href]"
+      }
+    ]
+  }
+]

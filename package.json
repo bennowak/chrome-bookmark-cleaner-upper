@@ -1,0 +1,25 @@
+{
+  "name": "chrome-bookmark-cleaner-upper",
+  "version": "0.0.1",
+  "description": "A utility script to sanitize exported chrome bookmark links into a standard HTML5 document with headings and unordered lists of anchor tags.",
+  "main": "cleanup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bennowak/chrome-bookmark-cleaner-upper.git"
+  },
+  "author": "Ben Nowak",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/bennowak/chrome-bookmark-cleaner-upper/issues"
+  },
+  "homepage": "https://github.com/bennowak/chrome-bookmark-cleaner-upper#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "node-grok": "^2.0.3",
+    "readline": "^1.3.0",
+    "replace-in-file": "^3.4.2"
+  }
+}
